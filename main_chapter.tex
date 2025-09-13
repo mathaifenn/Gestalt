@@ -1,0 +1,18 @@
+
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\begin{document}
+
+\begin{center}
+{\Large Chapter PDF Build}\\[1ex]
+\end{center}
+
+% The build script creates a symlink: chapters/current -> chapters/NN-title
+\input{chapters/current/chapter.tex}
+
+\end{document}

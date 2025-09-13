@@ -1,0 +1,36 @@
+# Ignore build outputs
+outputs/
+
+# Ignore LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.idx
+*.ilg
+*.ind
+*.glg
+*.glo
+*.gls
+*.ist
+*.acr
+*.alg
+*.acn
+*.synctex.gz
+
+# Ignore temporary files
+*.swp
+*.bak
+*.tmp
+
+# Ignore text files (not part of version control)
+*.txt
+
+# Ignore generated book files
+*.pdf
+*.epub
+*.docx

@@ -1,0 +1,38 @@
+
+\documentclass{book}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{makeidx}
+\makeindex
+\usepackage[acronym]{glossaries}
+\makeglossaries
+% Sample glossary entries (auto-generated will replace)
+\newglossaryentry{gestalt}{
+  name={Gestalt},
+  description={A configuration where the whole is other than the sum of its parts.}
+}
+\newglossaryentry{pragnanz}{
+  name={Pragnanz},
+  description={The law of simplicity; perception organizes elements into the simplest form possible.}
+}
+
+
+\begin{document}
+
+\frontmatter
+\include{masters/templates/titlepage}
+\tableofcontents
+
+% Unnumbered front matter (Preface)
+\include{chapters/preface/chapter}
+
+\mainmatter
+% Include your chapters here, in order:
+\include{chapters/01-gestalt/chapter}
+
+\backmatter
+\printglossary
+\printindex
+
+\end{document}

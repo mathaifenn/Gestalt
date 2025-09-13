@@ -1,0 +1,17 @@
+- key: gestalt
+  term: Gestalt
+  aliases: [Gestalts, "form perception"]
+  index: true
+  glossary: true
+  first_only: true
+  definition: >
+    A configuration where the whole is other than the sum of its parts.
+
+- key: pragnanz
+  term: Pragnanz
+  aliases: ["law of Prägnanz"]
+  index: true
+  glossary: true
+  first_only: true
+  definition: >
+    The law of simplicity; our perception organizes elements into the simplest form possible.
